@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ToDO LIST</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="clock">
+      <h1 class="clock-title"></h1>
+    </div>
+
+    <div class="username">
+      <form class="name-input">
+        <input type="text" placeholder="what is your name" />
+      </form>
+      <div class="hello not-display"></div>
+    </div>
+
+    <div class="weather"></div>
+
+    <form class="todoform">
+      <input class="getinput" type="text" placeholder="enter the todolist!" />
+    </form>
+
+    <h1 class="pending">Pending</h1>
+    <ul class="todolist"></ul>
+    <h1 class="finish">Finished</h1>
+    <ul class="completelist"></ul>
+  </body>
+  <script src="src/clock.js"></script>
+  <script src="src/username.js"></script>
+  <script src="src/background.js"></script>
+  <script src="src/weather.js"></script>
+  <script src="src/todolist.js"></script>
+</html>

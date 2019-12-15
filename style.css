@@ -1,0 +1,67 @@
+body {
+  font-family: sans-serif;
+  background-color: yellow;
+}
+.clock-title {
+  color: green;
+  text-align: center;
+}
+.name-input {
+  text-align: center;
+}
+.hello {
+  text-align: center;
+}
+.not-display {
+  display: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.hello {
+  color: greenyellow;
+}
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
+
+.weather {
+  color: skyblue;
+  text-align: center;
+}
+.pending {
+  color: blue;
+  text-align: center;
+}
+.finish {
+  color: red;
+  text-align: center;
+}
+
+.todoform {
+  color: white;
+  text-align: center;
+}
+.todolist {
+  color: bisque;
+  position: center;
+}
+li {
+  margin-left: 50%;
+}
+.completelist {
+  color: crimson;
+  position: center;
+}
