@@ -1,5 +1,5 @@
 const weather = document.querySelector(".weather");
-const keys = "";
+const keys = "e34182e42f575ac6a589f8b780e4f955";
 const COORDS = "coords";
 
 function getWeather(lat, lon) {
